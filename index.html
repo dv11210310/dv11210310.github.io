@@ -73,7 +73,6 @@
         .mx-12{
             margin: 0 12px;
         }
-        .under-line-wrapper
         .under-line{
             width: 100%;
             height: 2px;
@@ -106,23 +105,54 @@
         .w-50{
             width: 50%;
         }
-        .w-70{
-            width: 70%;
-        }
         .se2-text{
-            padding: 3px;
+            /* padding: 16px 0; */
             background-color: rgba(255, 255, 255, 0.70);
             line-height: normal;
             
         }
         .se2-text-wrapper{
             margin-left: -15%;
-            padding: 10px 0; 
-            /* display: flex; */
-            align-items: center;         
+            padding: 16px 0; 
+            display: flex;
+            align-items: flex-end;
         }
         .pd-8{
             padding-bottom: 8px;
+        }
+        .se3-text-title{
+            font-size: 20px;
+            font-weight: 700;
+            font-style: normal;
+            text-align: center;
+            line-height: normal;
+        }
+        .se3-text-content{
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        .mxm-12{
+            margin:-12px;
+        }
+        .flex-wrap{
+            flex-wrap: wrap;
+        }
+        .w-1\/4{
+            width: 23%;
+        }
+        .px-12{
+            padding-bottom: 12px;
+        }
+        .card-shadow{
+            box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        }
+        h-333{
+            height: 333px;
+        }
+        br-14{
+            border-radius: 14px;
         }
     </style>
 </head>
@@ -163,7 +193,7 @@
                 <div class="border-radius overflow-hidden w-50">
                    <img class="w-100" src="./assest/se2img.png" alt="">
                 </div>
-                <div class="se2-text-wrapper w-65">
+                <div class="w-65 se2-text-wrapper">
                     <div class="se2-text">
                         <p>
                             生存遊戲是一種模擬軍事戰略的運動，是以使用BB彈作為子彈的模擬真槍射擊的多人遊戲。<br><br>
@@ -180,6 +210,73 @@
                 </div>    
             </div>    
         </div>
+    </section>
+    <section>
+        <h2 class="title">裝備介紹</h2>
+        <div class="container">
+            <div class="d-flex mxm-12 flex-wrap">
+                <div class="w-1/4 px-12">
+                    <div class="card-shadow h-333 br-14">
+                        <div>
+                            <img class="w-100" src="./assest/p1.png" alt="">
+                        </div>
+                        <div class="se3-text-title">衝鋒槍 </div>
+                        <div class="se3-text-content">
+                            衝鋒槍的特色：<br>
+                            射速快、子彈多、槍枝短小<br>
+                            輕巧，適合喜歡首當其衝的<br>
+                            人群使用。
+                        </div>
+                    </div>
+                </div>
+                <div class="w-1/4 px-12">
+                    <div class="card-shadow h-333 br-14">
+                        <div>
+                            <img class="w-100" src="./assest/p2.png" alt="">
+                        </div>
+                        <div class="se3-text-title">步槍 </div>
+                        <div class="se3-text-content">
+                            步槍的特色：<br>
+                            泛用型、適合中距離，亦可<br>
+                            裝上各類瞄具，適合廣泛大<br>
+                            眾使用。
+                        </div>
+                    </div>
+                </div>
+                <div class="w-1/4 px-12">
+                    <div class="card-shadow h-333 br-14">
+                        <div>
+                            <img class="w-100" src="./assest/p3.png" alt="">
+                        </div>
+                        <div class="se3-text-title">狙擊槍 </div>
+                        <div class="se3-text-content">
+                            狙擊槍的特色：<br>
+                            多為空氣動力、一拉一發、<br>
+                            瞄準距離遠、不太適合新手<br>
+                            使用。
+                        </div>
+                    </div>
+                </div>
+                <div class="w-1/4 px-12">
+                    <div class="card-shadow h-333 br-14">
+                        <div>
+                            <img class="w-100" src="./assest/p4.png" alt="">
+                        </div>
+                        <div class="se3-text-title">霰彈槍 </div>
+                        <div class="se3-text-content">
+                            霰彈槍的特色：<br>
+                            一次可射出多發子彈、適合<br>
+                            中距離使用，因為太遠容易<br>
+                            瞄不準。
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            
+        </div>
+       
     </section>
 </body>
 </html>
